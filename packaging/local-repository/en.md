@@ -47,7 +47,7 @@ As mentioned earlier, the local solbuild repo installed by the `solbuild-config-
 
 To generate or refresh the eopkg index in `/var/lib/solbuild/local`, simply run:
 
-`sudo eopkg index --skip-signing /var/lib/solbuild/local/`
+`sudo eopkg index --skip-signing /var/lib/solbuild/local/ --output /var/lib/solbuild/local/eopkg-index.xml`
 
 ### A note on package resolution priority
 
